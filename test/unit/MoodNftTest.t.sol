@@ -4,7 +4,7 @@ pragma solidity ^0.8.18;
 
 import {Test, console} from "forge-std/Test.sol";
 import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import {MoodNft} from "../src/MoodNft.sol";
+import {MoodNft} from "../../src/MoodNft.sol";
 
 contract MoodNftTest is Test {
     MoodNft moodNft;
